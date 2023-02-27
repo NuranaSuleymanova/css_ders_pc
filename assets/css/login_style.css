@@ -1,0 +1,140 @@
+*
+{
+    color: black;
+    font-weight: 600;
+}
+
+.cointainer
+{
+    width: 70%;
+    margin: auto;
+}
+
+
+.login 
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form
+{
+    width: 100%;
+    height: 600px;
+    border: 3px solid black;
+    display: flex;
+  
+    /* justify-content:space-between; */
+}
+.form-box
+{   width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.form img
+{
+    width: 30%;
+    height: 600px;
+}
+
+.label-left, .label-right
+{
+   display: flex;
+   margin-top: 51px;
+   flex-direction: column;
+}
+
+
+.form .label-left , .label-right label
+{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+     
+}
+
+.form .label-left input
+{
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(221, 208, 208);
+    height: 35px;
+    
+}
+
+.form .label-left  input,label
+{
+    /* margin-left: 50px; */
+    margin-top: -5px;
+   
+}
+
+.form .label-right a
+{
+    font-size: 9px;
+    color: gray;
+    margin-left: 350px;
+    margin-top: -15px;
+}
+
+.form .label-right .text
+{
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(221, 208, 208);
+    height: 35px;
+    width: 270px;
+    margin-top: -8px;
+}
+
+.form .label-right .radio
+{
+ 
+    display: inline;
+}
+.label-right select
+{
+    width:271px; 
+    height:38px; 
+    border-radius:5px;
+    margin-top: -7px;
+    border: 1px solid rgb(221, 208, 208);
+}
+ .donate
+{
+    margin: 10px;
+} 
+
+.submit
+{
+    margin-top: 100px;
+    margin-left: 100px;
+   
+}
+button
+{
+    padding: 10px 30px;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(221, 208, 208);
+}
+
+.submit .btn1
+{
+    background-color: green;
+    color: white;
+}
+.submit .btn2
+{
+    color:rgb(185, 165, 165) ;
+}
+/* .range
+{
+  margin-top: 300px;
+  width: 500px;
+  margin-left: 0px;
+} */
